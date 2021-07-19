@@ -1,0 +1,88 @@
+:root{
+    --primary-color: #FBBF24;
+    --secondary-color: #FEF3C7;
+}
+.head{
+text-align: center;
+font-size:xx-large;
+display:block;
+background-color:var(--primary-color) ;
+padding: 0.5rem;
+margin-bottom: 3rem;
+}
+.heroimg{
+    padding: 1rem 0rem;
+    text-align: center;
+    max-width: 500px;
+    margin:auto;
+    display: block;
+}
+body {
+display: block;
+margin: 0px;
+font-family: 'Patrick Hand', cursive;
+}
+.txtarea{
+font-size: xx-large;
+margin-top: 2rem;
+margin: auto;
+height: 15vh;
+width:  50%;
+display: block;
+margin-bottom: 1rem;
+
+}
+.outputdiv{
+font-size: xx-large ;
+border: 1px solid;
+margin: auto;
+height: 15vh;
+width:  50%;
+display: block;
+margin-top: 1rem;
+margin-bottom: 3rem;
+}
+.btnTranslate{
+font-size: larger;
+margin: auto;
+font-weight: bolder;
+display: block;
+padding: 1rem ;
+border-radius: 1rem ;
+background-color:var(--primary-color);
+
+}
+.container-center{
+text-align: center;
+max-width: 60%;
+display: block;
+margin: auto;
+
+}
+.list-inline{
+display: inline;
+margin:1rem;
+}
+.link{
+text-decoration: none;
+margin:3px;
+}
+.footer
+{
+padding: 2rem 1rem;
+border-top-right-radius: 1rem;
+border-top-left-radius: 1rem;
+background-color: var(--primary-color);
+}
+
+.footer-hero{
+color: var(--white-color);
+font-weight:bold ;
+font-size: x-large;
+}
+.footer .link{
+color: var(--white-color);
+}
+.footer .no-dot{
+padding-inline-start: 0px
+}
