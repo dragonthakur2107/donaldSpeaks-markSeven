@@ -1,6 +1,5 @@
 :root{
-    --primary-color: #FBBF24;
-    --secondary-color: #FEF3C7;
+    --primary-color: #71048a;
 }
 .head{
 text-align: center;
@@ -21,8 +20,10 @@ body {
 display: block;
 margin: 0px;
 font-family: 'Patrick Hand', cursive;
+background-color: black;
 }
 .txtarea{
+    color:white;
 font-size: xx-large;
 margin-top: 2rem;
 margin: auto;
@@ -30,17 +31,20 @@ height: 15vh;
 width:  50%;
 display: block;
 margin-bottom: 1rem;
+background-color: black;
 
 }
 .outputdiv{
+color:white;
 font-size: xx-large ;
-border: 1px solid;
+border: 1px solid var(--primary-color);
 margin: auto;
 height: 15vh;
 width:  50%;
 display: block;
 margin-top: 1rem;
 margin-bottom: 3rem;
+
 }
 .btnTranslate{
 font-size: larger;
