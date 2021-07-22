@@ -2,7 +2,7 @@ var btnTranslate = document.querySelector("#btn-translate");
 var txtInput = document.querySelector("#txt-area");
 var outputDiv = document.querySelector("#txt-output");
 
-var serverURL="https://api.funtranslations.com/translate/wakandan.json"
+var serverURL="https://api.funtranslations.com/translate/dolan.json"
 
 
 function getTranslationURL(text){
