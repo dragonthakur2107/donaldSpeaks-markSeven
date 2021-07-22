@@ -1,5 +1,6 @@
 :root{
-    --primary-color: #71048a;
+    --primary-color: #FBBF24;
+    --secondary-color: #3B82F6;
 }
 .head{
 text-align: center;
@@ -20,7 +21,7 @@ body {
 display: block;
 margin: 0px;
 font-family: 'Patrick Hand', cursive;
-background-color: black;
+background-color: var(--secondary-color);
 }
 .txtarea{
     color:white;
@@ -31,7 +32,7 @@ height: 15vh;
 width:  50%;
 display: block;
 margin-bottom: 1rem;
-background-color: black;
+background-color: var(--secondary-color);
 
 }
 .outputdiv{
